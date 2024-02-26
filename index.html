@@ -8,11 +8,32 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   <style>
-    /* Custom styles */
+    
+  html, body {
+    width: 100%;
+    height:100%;
+  }
+
+  body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+  }
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
     body {
       font-family: Arial, sans-serif;
-      background-color: #ffffff;
-      color: #000000;
+      
     }
     .header {
       background-color: #fff;
@@ -75,7 +96,7 @@
             <a class="nav-link" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="btn btn-outline-dark" href="Aswin Venu M.pdf" download><strong>Download Resume</strong></a>
+            <a class="btn btn-outline-dark" href="Aswin Venu M.pdf" download><strong>My Resume</strong></a>
           </li>
         </ul>
       </div>
@@ -85,24 +106,22 @@
   <!-- Header Section -->
   <header class="header">
     <h1>Hi, I am Aswin.</h1>
-    <p>I'm a Python Developer.</p>
+    <p>Python Developer</p>
     <p>Check out my work below!</p>
   </header>
 
   <div class="container my-5">
-    <div class="card bg-dark text-white w-90 mb-5">
+    <div class="card w-90 mb-5">
       <div class="card-body">
         <!-- About Section -->
         <section id="about" class="container my-5">
           <h2 class="text-center mb-4">About Me</h2>
           <div class="row">
             <div class="col-lg-6">
-              <p>Hey there! I'm Aswin Venu M, a Python Django full-stack developer with a passion for crafting seamless digital experiences. My journey into web development began [mention when and how you started]. Since then, I've immersed myself in mastering both front-end and back-end technologies, specializing in Python and Django to build robust, scalable applications.</p>
-              <p>Driven by a thirst for knowledge, I'm constantly exploring new tools and techniques to stay ahead in this ever-evolving field. Whether it's diving into the intricacies of Django's ORM or experimenting with the latest JavaScript frameworks, I thrive on pushing the boundaries of what's possible.</p>
+              <p>Hey there! I'm [Your Name], a Python Django full-stack developer passionate about crafting seamless digital experiences. With expertise in both front-end and back-end technologies, I specialize in Python and Django to build robust, scalable applications. Driven by a thirst for knowledge, I constantly explore new tools and techniques to stay ahead in this ever-evolving field.</p>
             </div>
             <div class="col-lg-6">
-              <p>Collaboration is key to my approach. I enjoy working closely with cross-functional teams to brainstorm ideas, solve problems, and deliver high-quality solutions that exceed expectations. My communication skills and ability to empathize with end-users allow me to translate complex requirements into intuitive, user-friendly interfaces.</p>
-              <p>Beyond coding, I find inspiration in exploring the great outdoors, indulging in culinary adventures, and immersing myself in diverse cultural experiences. These pursuits not only fuel my creativity but also provide invaluable perspective and balance to my life. I'm eager to continue leveraging my skills and expertise to tackle new challenges and contribute to innovative projects that make a meaningful impact in the world of web development.</p>
+              <p>Beyond coding, I find fulfillment in mentoring aspiring developers and volunteering for causes I'm passionate about. Whether it's sharing knowledge in coding bootcamps or contributing to open-source projects, I'm committed to giving back to the community. I'm enthusiastic about the opportunity to apply my skills and passion for technology to create impactful solutions that address real-world challenges in the realm of web development.</p>
             </div>
           </div>
         </section>
@@ -122,7 +141,6 @@
                   <li class="d-inline-block mr-4"><img src="img\django.png" alt="Django" width="50"><br><strong>Django</strong></li>
                   <li class="d-inline-block mr-4"><img src="img\sql.png" alt="SQL" width="50"><br><strong>SQL</strong></li>
                   <li class="d-inline-block mr-4"><img src="img\react.png" alt="React" width="50"><br><strong>React</strong></li>
-                  <!-- Add more languages/frameworks here -->
                 </ul>
             </div>
           </div>
@@ -189,7 +207,7 @@
                       <p class="card-text">Created a Python-based calculator application with a user-friendly interface, enabling
                         users to perform basic arithmetic operations and providing a seamless calculation
                         experience.</p>
-                      <a href="https://github.com/Aswin-Venu-M/Python-Calculator" class="btn btn-primary">View Project</a>
+                      <a href="https://github.com/Aswin-Venu-M/Python-Calculator" class="btn btn-outline-primary">View Project</a>
                     </div>
                   </div>
                 </div>
@@ -200,7 +218,7 @@
                       <h5 class="card-title">Facebook Login Clone</h5>
                       <p class="card-text">Developed a Facebook login clone using HTML and CSS, replicating the user interface
                         and login functionality to create a visually appealing and interactive login experience.</p>
-                      <a href="https://github.com/Aswin-Venu-M/Facebook-clone" class="btn btn-primary">View Project</a>
+                      <a href="https://github.com/Aswin-Venu-M/Facebook-clone" class="btn btn-outline-primary">View Project</a>
                     </div>
                   </div>
                 </div>
@@ -211,7 +229,7 @@
                       <h5 class="card-title">Random Password Generator</h5>
                       <p class="card-text">Developed a Random Password Generator using Python and Tkinter that generates
                         secure passwords.</p>
-                      <a href="https://github.com/Aswin-Venu-M/Random-Password-Generator" class="btn btn-primary">View Project</a>
+                      <a href="https://github.com/Aswin-Venu-M/Random-Password-Generator" class="btn btn-outline-primary">View Project</a>
                     </div>
                   </div>
                 </div>
@@ -221,24 +239,22 @@
               <div class="row">
                 <div class="col-lg-4 mb-4">
                   <div class="card">
-                    <img src="img\robot.webp" class="card-img-top" alt="Project 4">
+                    <img src="img\samsung.jpeg" class="card-img-top" alt="Project 4">
                     <div class="card-body">
-                      <h5 class="card-title">Arduino Based All in One Robot</h5>
-                      <p class="card-text">Developed an Arduino-based all-in-one robot capable of bluetooth control, obstacle
-                        avoidance, and line following functionalities, enabling versatile and autonomous
-                        navigation in various scenarios.</p>
-                      <a href="#" class="btn btn-primary">View Project</a>
+                      <h5 class="card-title">Samsung Webpage Clone</h5>
+                      <p class="card-text">Developed a Samsung Webpage Clone using HTML and CSS, replicating the user interface to create a visually appealing and interactive experience</p>
+                      <a href="https://aswin-venu-m.github.io/Samsung-Webpage/" class="btn btn-outline-primary">View Project</a>
                     </div>
                   </div>
                 </div>
                 <div class="col-lg-4 mb-4">
                   <div class="card">
-                    <img src="img\robot.webp" class="card-img-top" alt="Project 5">
+                    <img src="img\ro.jpg" class="card-img-top" alt="Project 5">
                     <div class="card-body">
                       <h5 class="card-title">Arduino Based Fire Rescue Robot</h5>
                       <p class="card-text">Made an Arduino-based fire rescue robot equipped with sensors and actuators to
                         assist in firefighting operations and navigate hazardous environments.</p>
-                      <a href="#" class="btn btn-primary">View Project</a>
+                      <a href="#" class="btn btn-outline-primary">View Project</a>
                     </div>
                   </div>
                 </div>
@@ -250,13 +266,12 @@
                       <p class="card-text">Utilized Python and Natural Language Processing (NLP) to perform sentiment analysis
                         on restaurant reviews, extracting meaningful insights to enhance customer experience
                         and optimize business operations.</p>
-                      <a href="https://colab.research.google.com/drive/1sPCX1Bi8MJT1-HCgtCX2zryHHsRCgMNP?usp=sharing" class="btn btn-primary">View Project</a>
+                      <a href="https://colab.research.google.com/drive/1sPCX1Bi8MJT1-HCgtCX2zryHHsRCgMNP?usp=sharing" class="btn btn-outline-primary">View Project</a>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-            <!-- Add more carousel items for additional projects if needed -->
           </div>
           <a class="carousel-control-prev" href="#projectCarousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -275,15 +290,15 @@
 
   <!-- Experience Section -->
   <section id="experience" class="container my-5">
-    <h2 class="text-center mb-4">Experience</h2>
+    <h2 class="text-center mb-4"><strong>Experience</strong></h2>
     <div class="row">
       <div class="col-lg-6">
-        <h4>DocMe Cloud Solutions</h4>
+        <h4><strong>DocMe Cloud Solutions</strong></h4>
         <p>Position: Robotic Coordinator</p>
         <p>Date: December 2024 - Present</p>
       </div>
       <div class="col-lg-6">
-        <h4>All India Council for Technical Education (AICTE)</h4>
+        <h4><strong>All India Council for Technical Education (AICTE)</strong></h4>
         <p>Position: Artificial Intelligence Intern</p>
         <p>Date: June 2018 - December 2019</p>
       </div>
@@ -292,10 +307,10 @@
 
   <!-- Contact Section -->
   <section id="contact" class="container my-5">
-    <h2 class="text-center mb-4">Send me a message</h2>
+    <h2 class="text-center mb-4"><strong>Send me a message</strong></h2>
     <div class="row">
       <div class="col-lg-12 mb-4">
-        <div class="card bg-secondary text-white">
+        <div class="card">
           <div class="card-body">
             
             <form>
@@ -333,8 +348,8 @@
             <p>Email: aswinvg001@gmail.com</p>
             <p>Follow me on social media:</p>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="https://www.linkedin.com/in/aswin-venu-m/"><i class="fab fa-linkedin"></i></a></li>
-                <li class="list-inline-item"><a href="https://github.com/Aswin-Venu-M"><i class="fab fa-github"></i></a></li>
+                <li class="list-inline-item"><a href="https://www.linkedin.com/in/aswin-venu-m/"><i class="fab fa-linkedin fa-lg"></i></a></li>
+                <li class="list-inline-item"><a href="https://github.com/Aswin-Venu-M"><i class="fab fa-github fa-lg"></i></a></li>
             </ul>
             </div>
         </div>
